@@ -1,9 +1,11 @@
 <script>
-	export let name;
+	let firtname = "World";
+	let second = " King";
+	$: name = firtname + "" + second
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Hello {name}! Ibrahim was here</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
